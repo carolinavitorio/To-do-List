@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #A5DD9B, #C5EBAA,#F6F193, #F2C18D);
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    margin-left: 35px;
+}
+
+.content {
+    padding: 15px ;
+    width: 300px;
+    background-color: #F2C18D;
+    justify-content: center;
+    margin-top: 35px;
+    border-radius: 0.8rem;
+    color: #183D3D;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.content-add-list {
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#input-new-task
+{
+    border: none;
+    font-size: 0.9rem;
+    outline: none;
+    padding: 1rem;
+    margin-left: 20px;
+}
+
+#input-new-task{
+    width: 175px;
+    border-radius: 0.8rem;
+    height: 10px;
+    margin-top: 5px;
+}
+
+#btn-add-task{
+    background-color: #C5EBAA;
+    color: var(--color-black);
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 0.9rem;
+    outline: none;
+    margin-left: 5px;
+    padding-top: 2px;
+    transition: .4s;
+}
+
+#btn-add-task:hover{
+    background-color: #9BCF53;
+}
+
+.content-list {
+    width: 250px;
+    margin: auto;
+    color: #183D3D;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+#btn-ok{
+    border: none;
+    background-color: #C5EBAA;
+    color: #183D3D;
+    padding: .4rem .8rem;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-ok:hover{
+    background-color: #9BCF53;
+}
